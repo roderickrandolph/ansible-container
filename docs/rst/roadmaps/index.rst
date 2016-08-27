@@ -1,5 +1,5 @@
-Roadmaps
-========
+Roadmap
+=======
 
 Each major and minor release will receive a roadmap. Roadmaps will appear here. When a new roadmap is available for comment an announcement will be made on the 
 `Ansible Container Mailing List <https://groups.google.com/forum/?hl=en-GB#!forum/ansible-container>`_.
@@ -15,7 +15,10 @@ Ways to submit feedback:
   - `Open an issue <https://github.com/ansible/ansible-container/issues/new>`_ 
   - Join us at the next `AnsibleFest or RedHat Summit <https://www.ansible.com/blog/topic/ansiblefest>`_ 
 
+Releases
+--------
+
 .. toctree::
    :maxdepth: 2
 
-   Current release: 0.2.0 <roadmap_0_2_0>
+   Current: Release 0.2.0 <roadmap_0_2_0>

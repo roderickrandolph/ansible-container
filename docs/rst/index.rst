@@ -25,6 +25,6 @@ deployment.
    registry_auth
    reference/index
    releases
-   roadmap<roadmaps/index>
+   Roadmap<roadmaps/index>
    community/index
 
