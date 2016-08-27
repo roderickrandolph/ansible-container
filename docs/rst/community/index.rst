@@ -16,7 +16,7 @@ I've got a question
 
 We're happy to help!
 
-Questions are best asked on the `Ansible Container Google Group <https://groups.google.com/forum/?hl=en-GB#!forum/ansible-container>`_.
+Questions are best asked on the `Ansible Container Mailing List <https://groups.google.com/forum/?hl=en-GB#!forum/ansible-container>`_.
 
 When asking a question please be sure to share any relevant commands you ran, output, the version of Ansible Container you are using, etc. Where needed, 
 link to gists or github repos to show examples, rather than sending attachments to the list.
@@ -25,7 +25,7 @@ Alternatively, you can also join our IRC channel - #ansible-container on irc.fre
 
 I’d Like To Keep Up With Release Announcements
 ----------------------------------------------
-Release announcements will be posted to `Ansible Container Google Group <https://groups.google.com/forum/?hl=en-GB#!forum/ansible-container>`_. 
+Release announcements will be posted to the `Ansible Container Mailing List <https://groups.google.com/forum/?hl=en-GB#!forum/ansible-container>`_. 
 
 
 I’d Like To Help Share and Promote Ansible Container
@@ -66,7 +66,7 @@ Contributing Code
 The project takes contributions through Github pull requests. See the `contributors guide <https://github.com/ansible/ansible-container/blob/develop/CONTRIBUTORS.md>`_ for 
 guidelines on submitting pull requests. 
 
-We recommend joining the Ansible Container Google Group and submitting a topic for any large features prior to submission. This especially helps avoid duplicate work or eliminating 
+We recommend joining the `Ansible Container Mailing List <https://groups.google.com/forum/?hl=en-GB#!forum/ansible-container>`_ and submitting a topic for any large features prior to submission. This especially helps avoid duplicate work or eliminating 
 situations where we decide, upon seeing a pull request for the first time, that more than cosmetic revisions are needed.
 
 Note that we do reserve the right to reject pull request that are not a good fit for the project or not in keeping with the intended direction of the project, so if you are unclear 
@@ -87,7 +87,7 @@ web front end to Ansible. For more information about any of these things, contac
 
 Mailing List Information
 ------------------------
-To post questions and receive email updates join the `Ansible Container Google Group <https://groups.google.com/forum/?hl=en-GB#!forum/ansible-container>`_. Your first post to the 
+To post questions and receive email updates join the `Ansible Container Mailing List <https://groups.google.com/forum/?hl=en-GB#!forum/ansible-container>`_. Your first post to the 
 mailing list will be moderated (to reduce spam), so please allow a day or less for your first post.
 
 To subscribe to the group from a non-google account, you can send an email to ansible-container+subscribe@googlegroups.com
