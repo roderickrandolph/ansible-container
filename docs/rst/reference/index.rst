@@ -4,7 +4,7 @@ Command Reference
 .. toctree::
    :maxdepth: 2
 
-   optional/index
+   options/index
    init
    build
    run
