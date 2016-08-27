@@ -2,11 +2,7 @@
 Optional Arguments
 ==================
 
-:usage: ansible-container
-    [-h] [--debug] [--engine ENGINE_NAME]
-    [--project BASE_PATH] [--var-file VAR_FILE]
-    {init,version,run,help,push,shipit,stop,restart,build}
-                         ...
+Usage: ansible-container    [-h] [--debug] [--engine ENGINE_NAME] [--project BASE_PATH] [--var-file VAR_FILE] {init,version,run,help,push,shipit,stop,restart,build}
 
 Build, orchestrate, run, and ship Docker containers with Ansible playbooks
 
