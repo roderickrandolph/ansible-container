@@ -2,9 +2,7 @@
 Optional Arguments
 ==================
 
-Usage: ansible-container    [-h] [--debug] [--engine ENGINE_NAME] [--project BASE_PATH] [--var-file VAR_FILE] {init,version,run,help,push,shipit,stop,restart,build}
-
-Build, orchestrate, run, and ship Docker containers with Ansible playbooks
+Use the following optional arguments with the ``ansible-container`` command: 
 
 .. option:: -h, --help
 
