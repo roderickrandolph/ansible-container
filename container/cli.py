@@ -103,11 +103,10 @@ def subcmd_run_parser(parser, subparser):
                            help=u'The specific services you want to run',
                            nargs='*')
     subparser.add_argument('--production', action='store_true',
-                           help=u'Run the production configuration locally',
+                           help=u'Run the production configuration locally.',
                            default=False, dest='production')
     subparser.add_argument('-d', '--detached', action='store_true',
-                           help=u'Deploy application in detached mode',
-                           dest='detached')
+                           help=u'Run the application in detached mode.', dest='detached')
     subparser.add_argument('-o', '--remove-orphans', action='store_true',
                            help=u'Remove containers for services not defined in container.yml.',
                            default=False, dest='remove_orphans')
