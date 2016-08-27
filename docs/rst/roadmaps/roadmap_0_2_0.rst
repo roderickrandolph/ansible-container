@@ -35,7 +35,7 @@ Roadmap for release 0.2.0
 
   - Add --detached option to the *run* command.
   - Add *stop* and *restart* commands.
-  - Tracked on issue `#91 <https://github.com/ansible/ansible-container/issues/91>_`.
+  - Tracked on issue `#91 <https://github.com/ansible/ansible-container/issues/91>`_.
 
 - **Template rendering in container.yml** (House @chouseknecht)
 
@@ -51,7 +51,7 @@ Roadmap for release 0.2.0
   - Provide a list of unsupported directives
   - Include examples
 
-- ** Build container variables and volumes** (House @chouseknecht)
+- **Custom build variables and volumes** (House @chouseknecht)
  
   - Add --with-volumes option to build command
   - Add --with-variables option to build command
