@@ -25,6 +25,7 @@ using the *develop* branch.
 .. toctree::
    :maxdepth: 2
 
+   releases
    installation
    tour
    deploy_kubernetes

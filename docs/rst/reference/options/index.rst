@@ -1,5 +1,5 @@
 
-Optional Arguments
+optional arguments
 ==================
 
 Use the following optional arguments with the ``ansible-container`` command: 
