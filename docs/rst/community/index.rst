@@ -16,7 +16,7 @@ I've got a question
 
 We're happy to help!
 
-Questions are best asked on the `Ansible Container Google Group<https://groups.google.com/forum/?hl=en-GB#!forum/ansible-container>`_.
+Questions are best asked on the `Ansible Container Google Group <https://groups.google.com/forum/?hl=en-GB#!forum/ansible-container>`_.
 
 When asking a question please be sure to share any relevant commands you ran, output, the version of Ansible Container you are using, etc. Where needed, 
 link to gists or github repos to show examples, rather than sending attachments to the list.
@@ -25,7 +25,7 @@ Alternatively, you can also join our IRC channel - #ansible-container on irc.fre
 
 I’d Like To Keep Up With Release Announcements
 ----------------------------------------------
-Release announcements will be posted to `Ansible Container Google Group<https://groups.google.com/forum/?hl=en-GB#!forum/ansible-container>`_. 
+Release announcements will be posted to `Ansible Container Google Group <https://groups.google.com/forum/?hl=en-GB#!forum/ansible-container>`_. 
 
 
 I’d Like To Help Share and Promote Ansible Container
@@ -45,7 +45,7 @@ and merging the PR into your test branch. For more details on how to do this cli
 
 I’d Like To Report A Bug
 ------------------------
-The most helpful way to report a bug is by `opening an issue<https://github.com/ansible/ansible-container/issues/new>`_ at the Ansible Container repo. When opening an issue you will 
+The most helpful way to report a bug is by `opening an issue <https://github.com/ansible/ansible-container/issues/new>`_ at the Ansible Container repo. When opening an issue you will 
 see a template prompting you for information. Please provide as much detail as possible, keeping in mind that the goal is to help a developer reproduce the bug. Include details about
 your environment, the command you executed, stracktraces, etc. - anything you feel will help someone else not familiar with the issue to reproduce and troubleshoot it. 
 
@@ -63,7 +63,7 @@ Developers
 
 Contributing Code
 -----------------
-The project takes contributions through Github pull requests. See the `contributors guide<https://github.com/ansible/ansible-container/blob/develop/CONTRIBUTORS.md>`_ for 
+The project takes contributions through Github pull requests. See the `contributors guide <https://github.com/ansible/ansible-container/blob/develop/CONTRIBUTORS.md>`_ for 
 guidelines on submitting pull requests. 
 
 We recommend joining the Ansible Container Google Group and submitting a topic for any large features prior to submission. This especially helps avoid duplicate work or eliminating 
@@ -87,7 +87,7 @@ web front end to Ansible. For more information about any of these things, contac
 
 Mailing List Information
 ------------------------
-To post questions and receive email updates join the `Ansible Container Google Group<https://groups.google.com/forum/?hl=en-GB#!forum/ansible-container>`_. Your first post to the 
+To post questions and receive email updates join the `Ansible Container Google Group <https://groups.google.com/forum/?hl=en-GB#!forum/ansible-container>`_. Your first post to the 
 mailing list will be moderated (to reduce spam), so please allow a day or less for your first post.
 
 To subscribe to the group from a non-google account, you can send an email to ansible-container+subscribe@googlegroups.com
@@ -140,15 +140,16 @@ Anti-harassment policy
 ``````````````````````
 Harassment includes (but is not limited to) all of the following behaviors:
 
-Offensive comments related to gender (including gender expression and identity), age, sexual orientation, disability, physical appearance, body size, race, and religion
-Derogatory terminology including words commonly known to be slurs
-Posting sexualized images or imagery in public spaces
-Deliberate intimidation
-Stalking
-Posting others’ personal information without explicit permission
-Sustained disruption of talks or other events
-Inappropriate physical contact
-Unwelcome sexual attention
+- Offensive comments related to gender (including gender expression and identity), age, sexual orientation, disability, physical appearance, body size, race, and religion
+- Derogatory terminology including words commonly known to be slurs
+- Posting sexualized images or imagery in public spaces
+- Deliberate intimidation
+- Stalking
+- Posting others’ personal information without explicit permission
+- Sustained disruption of talks or other events
+- Inappropriate physical contact
+- Unwelcome sexual attention
+
 Participants asked to stop any harassing behavior are expected to comply immediately. Sponsors are also subject to the anti-harassment policy. In particular, sponsors should not use sexualized images, activities, or other material. Meetup organizing staff and other volunteer organizers should not use sexualized attire or otherwise create a sexualized environment at community events.
 
 In addition to the behaviors outlined above, continuing to behave a certain way after you have been asked to stop also constitutes harassment, even if that behavior is not specifically outlined in this policy. It is considerate and respectful to stop doing something after you have been asked to stop, and all community members are expected to comply with such requests immediately.
@@ -165,12 +166,12 @@ We expect all participants, organizers, speakers, and attendees to follow these 
 
 The Ansible Community Code of Conduct is licensed under the Creative Commons Attribution-Share Alike 3.0 license. Our Code of Conduct was adapted from Codes of Conduct of other open source projects, including:
 
-Contributor Covenant
-Elastic
-The Fedora Project
-OpenStack
-Puppet Labs
-Ubuntu
+- Contributor Covenant
+- Elastic
+- The Fedora Project
+- OpenStack
+- Puppet Labs
+- Ubuntu
 
 Contributors License Agreement
 ``````````````````````````````
