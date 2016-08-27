@@ -14,23 +14,17 @@ But Ansible Container does not stop there. Use Ansible Container to run the appl
 public registries. When you are ready to deploy to the cloud, use it to generate an Ansible role that automates the
 deployment.
 
-Releases
-````````
-
-The current release available at `PyPi<http://pypi.org>`_ is `0.1.0<https://pypi.org/search/?q=ansible-container>`_. The 
-next release is 0.2.0. Version 0.2.0 is in pre-release status and only available by `running from source</ansible-container/installation.html#running-from-source>`_ 
-using the *develop* branch. 
-
 
 .. toctree::
    :maxdepth: 2
 
-   releases
    installation
    tour
    deploy_kubernetes
    example
    registry_auth
    reference/index
+   releases
+   roadmap<roadmaps/index>
    community/index
 
