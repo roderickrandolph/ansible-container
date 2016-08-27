@@ -1,8 +1,3 @@
-.. ansible-container documentation master file, created by
-   sphinx-quickstart on Wed May 25 11:17:05 2016.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
 Welcome to ansible-container!
 =============================
 Ansible Container is the ultimate workflow for container development, testing, and deployment.
@@ -19,6 +14,13 @@ But Ansible Container does not stop there. Use Ansible Container to run the appl
 public registries. When you are ready to deploy to the cloud, use it to generate an Ansible role that automates the
 deployment.
 
+Releases
+````````
+
+The current release available at `PyPi<http://pypi.org>`_ is `0.1.0<https://pypi.org/search/?q=ansible-container>`_. The 
+next release is 0.2.0. Version 0.2.0 is in pre-release status and only available by `running from source</ansible-container/installation.html#running-from-source>`_ 
+using the *develop* branch. 
+
 
 .. toctree::
    :maxdepth: 2
@@ -29,6 +31,5 @@ deployment.
    example
    registry_auth
    reference/index
-
-
+   community/index
 
