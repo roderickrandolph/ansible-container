@@ -1,6 +1,8 @@
 stop
 =======
 
+**New in version 0.2.0**
+
 .. program:: ansible-container stop [service [service ...]]
 
 Stop running containers for the services defined in *container.yml.*
@@ -10,4 +12,6 @@ container.yml.
 
 If no services are specified, will stop all running services defined in *container.yml*.
 
+.. option:: -f, --force
 
+Stop running containers by using the kill command.
