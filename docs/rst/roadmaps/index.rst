@@ -18,4 +18,4 @@ Ways to submit feedback:
 .. toctree::
    :maxdepth: 2
 
-   Current release: 0.2.0 <roadmap_0_2_2>
+   Current release: 0.2.0 <roadmap_0_2_0>
