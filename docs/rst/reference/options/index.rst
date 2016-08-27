@@ -18,7 +18,7 @@ Select your container engine and orchestrator. Defaults to *docker*.
 
 .. option:: --project BASE_PATH, -p BASE_PATH
 
-Specify a path to your project. Defaults to curren working directory.
+Specify a path to your project. Defaults to the current working directory.
 
 .. option:: --var-file
 
