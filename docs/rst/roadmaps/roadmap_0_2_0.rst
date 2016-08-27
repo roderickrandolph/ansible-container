@@ -12,7 +12,7 @@ Roadmap for release 0.2.0
 
   - Build and test new execution strategy
   - Add CLI option to enable the new strategy in the build command
-  - Tracke on issue `<>`_.
+  - Tracked on issue `#143 <https://github.com/ansible/ansible-container/issues/143>`_.
 
 - **Refactor shipit** (House @chouseknecht)
 
@@ -29,13 +29,13 @@ Roadmap for release 0.2.0
 
   - We need a mechanism that allows the user to set image names and tag images into repositories. Currently image names are set exclsuively
     by ansible-container.
-  - Tracked on issue `#125 <https://github.com/ansible/ansible-container/issues/125`_.
+  - Tracked on issue `#125 <https://github.com/ansible/ansible-container/issues/125>`_.
 
 - **Support detached run, stop, and restart** (Charlie @cdrage) 
 
   - Add --detached option to the *run* command.
   - Add *stop* and *restart* commands.
-  - Tracked on issue `<>_`.
+  - Tracked on issue `#91 <https://github.com/ansible/ansible-container/issues/91>_`.
 
 - **Template rendering in container.yml** (House @chouseknecht)
 
@@ -51,3 +51,9 @@ Roadmap for release 0.2.0
   - Provide a list of unsupported directives
   - Include examples
 
+- ** Build container variables and volumes** (House @chouseknecht)
+ 
+  - Add --with-volumes option to build command
+  - Add --with-variables option to build command
+  - Add --save-build-container to build command
+  - Tracked on issue `#126 <https://github.com/ansible/ansible-container/issues/126>`_
