@@ -13,11 +13,18 @@ ansible-container:
     {% if with_variables %}{% for env_var in with_variables %}
     - {{ env_var }}
     {% endfor %}{% endif %}
+  {% if volumes_from %}
+  volumes_from:
+    {% for vol in volumes_from %}
+    - {{ vol }}
+    {% endfor %}
+  {% else %}
   volumes:
     {% if not env.DOCKER_HOST %}- /var/run/docker.sock:/var/run/docker.sock{% endif %}
     {% if env.DOCKER_CERT_PATH %}- $DOCKER_CERT_PATH:/docker-certs/:Z{% endif %}
     - {{ base_path }}:/ansible-container/:Z
     {% if with_volumes %}{% for vol in with_volumes %}
     - {{ vol }}{% endfor %}{% endif %}
+  {% endif %}
   working_dir: /ansible-container/ansible/
 {{ config }}

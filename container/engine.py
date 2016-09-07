@@ -298,6 +298,11 @@ def cmdrun_build(base_path, engine_name, flatten=True, purge_last=True, local_bu
         logger.info('Starting %s engine to build your images...'
                     % engine_obj.orchestrator_name)
         touched_hosts = engine_obj.hosts_touched_by_playbook()
+        volumes_from = []
+        if kwargs.get('volumes_from'):
+            for vol in kwargs.pop('volumes_from'):
+                volumes_from += vol
+            logger.debug("volumes_from: %s" % ','.join(volumes_from))
         with_volumes = []
         if kwargs.get('with_volumes'):
             for vol in kwargs.pop('with_volumes'):
@@ -309,6 +314,7 @@ def cmdrun_build(base_path, engine_name, flatten=True, purge_last=True, local_bu
                 with_variables += env_var
             logger.debug("env variables: %s" % ','.join(with_variables))
         engine_obj.orchestrate('build', temp_dir, context=dict(rebuild=rebuild,
+                                                               volumes_from=volumes_from,
                                                                with_volumes=with_volumes,
                                                                with_variables=with_variables))
         if not engine_obj.build_was_successful():
@@ -490,4 +496,3 @@ def resolve_push_to(push_to, default_url):
         namespace = parts[1]
 
     return registry_url, namespace
-
