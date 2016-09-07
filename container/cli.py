@@ -83,10 +83,6 @@ def subcmd_build_parser(parser, subparser):
                            help=u'Mount one or more volumes to the Ansible Builder Container. '
                                 u'Specify volumes as strings using the Docker volume format. '
                                 u'Separate multiple volume strings with spaces.')
-    subparser.add_argument('--volumes-from', action='append', nargs='+',
-                           help=u'Mount one or more volumes from another container to the Ansible Builder Container. '
-                                u'Specify volumes as strings using the Docker volume format. '
-                                u'Separate multiple volume strings with spaces.')
     subparser.add_argument('--with-variables', '-e', action='append', nargs='+',
                            help=u'Define one or more environment variables in the Ansible '
                                 u'Builder Container. Format each variable as a key=value string. '
